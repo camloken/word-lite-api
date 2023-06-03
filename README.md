@@ -1,11 +1,11 @@
 # word-lite-api
 
 This API returns the the following Bibles in JSON format
-NKJV - New King James Version
-NASB - New American Standard Bible
-ESV - English Standard Version
-LITV - Green's Literal Translation
-GENEVA - Geneva Bible
+* NKJV - New King James Version
+* NASB - New American Standard Bible
+* ESV - English Standard Version
+* LITV - Green's Literal Translation
+* GENEVA - Geneva Bible
 
 Endpoint 1: https://word-lite-api.vercel.app/nkjv/genesis (returns the book of genesis)
 
