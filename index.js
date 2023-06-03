@@ -26,13 +26,16 @@ function getBibleVersion(version) {
     case 'nasb':
       bible = nasb 
       break
+    case 'nkjv':
+      bible = nkjv 
+      break
     default:
       bible = nkjv
   }
 }
 
 app.get('/', (req, res) => {
-  res.send('Please add the bible abbreviation /NKJV, /NASB, /LITV, /ESV, /GENEVA or (/GB)')
+  res.status(200).send("The API is working. Please add the bible suffix /NKJV, /NASB, /LITV, /ESV or /GENEVA to the path.")
 })
 
 app.get('/:version', (req, res) => {
