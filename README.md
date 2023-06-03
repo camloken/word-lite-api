@@ -7,6 +7,7 @@ This API returns the the following Bibles in JSON format
 * LITV - Green's Literal Translation
 * GENEVA - Geneva Bible
 
+
 Endpoint 1: https://word-lite-api.vercel.app/nkjv/genesis (returns the book of genesis)
 
 Endpoint 2: https://word-lite-api.vercel.app//nkjv/genesis/3 (returns the book of genesis chapter 3)
