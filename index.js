@@ -2,12 +2,15 @@ const express = require('express')
 const nkjv = require('./nkjv.json')
 const nasb = require('./nasb.json')
 const esv = require('./esv.json')
+const litv = require('./litv.json')
 const geneva = require('./geneva.json')
 require("dotenv").config()
 
 const port = process.env.PORT || 8080
 const app = express()
 let bible = nkjv
+
+// TODO wrap Obadiah, Philemon, 2 & 3 John, Jude in array for chapters
 
 function getBibleVersion(version) {
   switch (version) {
